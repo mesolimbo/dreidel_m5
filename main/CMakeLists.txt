@@ -1,2 +1,11 @@
-idf_component_register(SRCS "hello_m5.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(SRCS "dreidel_m5.c"
+                    INCLUDE_DIRS "."
+                    EMBED_FILES "../images/dreidel/base.bmp"
+                                "../images/dreidel/gimel.bmp"
+                                "../images/dreidel/hey.bmp"
+                                "../images/dreidel/intro.bmp"
+                                "../images/dreidel/left.bmp"
+                                "../images/dreidel/nun.bmp"
+                                "../images/dreidel/prompt.bmp"
+                                "../images/dreidel/right.bmp"
+                                "../images/dreidel/shin.bmp")
