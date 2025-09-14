@@ -1,0 +1,55 @@
+# IDE and editor files
+.idea/
+.vscode/
+.scratch/
+*.swp
+*.swo
+*~
+
+# ESP-IDF build output
+build/
+cmake-build-*/
+sdkconfig.old
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+
+# Compilation output
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.map
+*.dSYM/
+
+# Dependencies
+dependencies.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
