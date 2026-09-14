@@ -1,4 +1,4 @@
-# Dreidel M5 - ESP32 Dreidel Game
+# Dreidel M5 - ESP32 Dreidel Micro Game
 
 An 8-bit dreidel emulator for the M5StickC-PLUS ESP32 device with music, advanced graphics, and push-button gameplay.
 
